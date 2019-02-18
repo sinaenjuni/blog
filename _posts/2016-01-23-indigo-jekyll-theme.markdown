@@ -8,7 +8,10 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+
+#타이틀 부분에 이미지 올리는 방법
 jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="../assets/images/icon/search.png" height="20" width="20" align="absmiddle">'
+
 category: project
 author: johndoe
 externalLink: false
