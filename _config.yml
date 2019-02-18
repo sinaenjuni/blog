@@ -39,33 +39,27 @@ email: y2k4388@gmail.com
 facebook: 
 github: sinaenjuni
 # google: mygoogle
-goodreads: BillGates
+# goodreads: 
 # instagram: myinstagram
 # linkedin: mylinkedin
-medium: medium
+# medium: medium
 # pinterest: mypinterest
 # quora: userquora
 # reddit: username
-# spotify: myspotify
+# spotify: 
 # stackoverflow: 7044681/mystackoverflow
-twitter: 
+# twitter: 
 # Video Sharing Platform
-# vimeo: myvimeo
-# youtube: myyoutube
+# vimeo: 
+# youtube: 
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: Hyeon Jun
+        bio: I'm Hyeon Jun, interested in Computer Programming and Algorithm.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+       # twitter: johndoe
+   
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
