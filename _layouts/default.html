@@ -30,7 +30,6 @@ layout: compress
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
             <div class="post">
-	<a href="/search/"><img src="/assets/images/icon/search.png"/></a>
         {% else %}
             {% if showHeader != true %}
                 <div class="page {{ page.title | downcase }}">
@@ -40,7 +39,7 @@ layout: compress
         {% endif %}
             {{ content }}
         </div>
-	
+	<a href="/search/"><img src="/assets/images/icon/search.png"/></a>
     </div>
 
     {% include icons.html %}
