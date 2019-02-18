@@ -2,7 +2,7 @@ body, html
 	font-size: 62.5%
 
 body
-	line-height: 1
+	line-height: 1.2
 	font: 16px $fontSans
 	color: $alpha
 
@@ -11,6 +11,7 @@ h1, h2, h3, h4
 	color: $beta
 	-webkit-font-smoothing: antialiased
 	text-rendering: optimizeLegibility
+
 
 h1
 	font-size: 3rem
@@ -29,28 +30,41 @@ h4
 
 a
 	color: $delta
-	text-decoration: underline
+	// text-decoration: underline
+	text-decoration: none
+	font-weight: 500
 
 p
-	line-height: 1.7
+	line-height: 1.9
 	color: $alpha
-	font-weight: 300
+	font-weight: 400
 	margin-bottom: 20px
-	letter-spacing: 0.4px
+	padding-bottom: 5px
+	letter-spacing: -0.015rem
+	-webkit-font-smoothing: antialiased
 
 	@media #{$mobile}
-		letter-spacing: 0.2px
+		letter-spacing: -0.01rem
+		color: $beta
+		font-size: 105%
 
 strong
-	font-weight: 400
+	font-weight: 600
 	color: #000
 
 ul,
 ol
 	li
 		line-height: 2.4rem
-		font-weight: 300
+		font-weight: 400
 		color: $alpha
+		margin-bottom: 5px
+		margin-top: 5px
+		letter-spacing: -0.015rem
+
+ul,
+ol
+	-webkit-padding-start: 30px
 
 img,
 pre,
@@ -60,6 +74,9 @@ iframe
 img,
 pre
 	border-radius: 4px
+	display: block
+	margin: 0 auto
+
 
 figcaption
 	position: relative
@@ -71,7 +88,7 @@ figcaption
 	text-align: center
 	font-size: 1.3rem
 	color: $gama
-	font-weight: 300
+	font-weight: 400
 
 	@media #{$mobile}
 		font-size: 1.2rem
@@ -79,6 +96,9 @@ figcaption
 blockquote
 	padding-left: 15px
 	border-left: 3px solid #eee
+	margin: auto 10px auto 10px
+	font-style: italic
+
 
 hr
 	border: none
@@ -93,26 +113,30 @@ figure.highlight
 
 code,
 tt
-	padding: 1px 0
+	padding: 3px 5px
 	font-family: $fontMonospace
-	font-size: 12px
+	font-size: 13px
 	line-height: 20px
-	background: #fff
-	border-radius: 2px
-	border-radius: 2px
+	background: $codebackground
+	margin: 0 5px 0 2px
+	border-radius: 5px
+	font-weight: 400
 
 pre
 	box-sizing: border-box
 	margin: 0 0 1.75em 0
 	width: 100%
-	padding: 5px 10px
+	padding: 15px 15px
 	font-family: $fontMonospace
 	font-size: 1.2rem
 	line-height: 2rem
 	overflow: auto
-	background: #fff
-	border: 1px solid $epsilon
-	border-radius: 2px
+	code
+		background: none
+		margin: 0 0 0 -5px
+	background: #F6F6F6
+	border: 1px solid #F6F6F6
+	border-radius: 5px
 
 .wrapper-normal,
 .wrapper-large
